@@ -4,7 +4,8 @@
 <div align="center">
   <br/>
 
-  <h3><b>PROJECT README</b></h3>
+  <h3>Real Estate
+  </b></h3>
 
 </div>
 
