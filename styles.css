@@ -4,9 +4,25 @@
     box-sizing: border-box;
 }
 
+
+nav {
+    padding: 30px 136px;
+    height: 120px;
+    background: rgba(0, 0, 0, 0.60);
+    height: 100%;
+}
+
 .nav-container {
     display: flex;
     flex-direction: row;
-    margin: 30px 136px;
     justify-content: space-between;
+    color: #FFFFFF;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 25px;
+    list-style: none;
 }
