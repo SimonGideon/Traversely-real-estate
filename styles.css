@@ -1,3 +1,4 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300;1,400;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +7,7 @@
 
 
 nav {
+    font-family: 'Lato', sans-serif;
     padding: 30px 136px;
     height: 120px;
     background: rgba(0, 0, 0, 0.60);
@@ -17,12 +19,30 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     color: #FFFFFF;
+    align-items: center;
 }
 
 .links {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 25px;
     list-style: none;
+    align-items: center;
+}
+
+.nav-brand {
+    font-size: 1.4rem;
+}
+
+.links button {
+    color: #FFFFFF;
+    padding: 5px 10px;
+    background-color: #FF5733;
+    border: none;
+    box-shadow: none;
 }
