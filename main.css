@@ -46,3 +46,6 @@ nav {
     border: none;
     box-shadow: none;
 }
+.image{
+    background-image: inherit;
+}
