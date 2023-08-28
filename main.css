@@ -48,4 +48,6 @@ nav {
 }
 .image{
     background-image: inherit;
+    width: 50%;
+    height: 50%;
 }
